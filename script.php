@@ -46,7 +46,7 @@
     deleteOnceFromArray($arr, 'comment');
     deleteOnceFromArray($arr, 'MNEM', 'MEST');
     translit($arr, array('FLD ', 'COMP', 'NAME'));
-    //changeDescText($arr, 'NAME', 'Компания оцифровщик каротажа');
+    changeDescText($arr, 'NAME', 'Компания оцифровщик каротажа');
 
     foreach ($arr as $key => $value) {
       $arr[$key] = iconv('utf-8', 'CP866', $value);
@@ -103,7 +103,8 @@
     $i = 0;
     foreach($arr as $key => $value) {
       if($i == count($fields)) break;
-      if($fields[$i] == getLASElement('MNEM', $value)) {
+      if(in_array(getLASElement('MNEM', $value), $fields)) {
+        echo 'uppy<br>';
         $i++;
         $data = getLASElement('DATA', $value);
         $arr[$key] = getLASElement('MNEM', $value).'.'.getLASElement('UNIT', $value).' '.parseToTranslit($data).':'.getLASElement('DESC', $value);//."\n";
