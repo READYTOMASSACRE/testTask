@@ -104,7 +104,6 @@
     foreach($arr as $key => $value) {
       if($i == count($fields)) break;
       if(in_array(getLASElement('MNEM', $value), $fields)) {
-        echo 'uppy<br>';
         $i++;
         $data = getLASElement('DATA', $value);
         $arr[$key] = getLASElement('MNEM', $value).'.'.getLASElement('UNIT', $value).' '.parseToTranslit($data).':'.getLASElement('DESC', $value);//."\n";
