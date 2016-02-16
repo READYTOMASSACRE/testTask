@@ -46,7 +46,7 @@
     deleteOnceFromArray($arr, 'comment');
     deleteOnceFromArray($arr, 'MNEM', 'MEST');
     translit($arr, array('FLD ', 'COMP', 'NAME'));
-    //changeDescText($arr, 'NAME', 'Компания оцифровщик каротажа');
+    changeDescText($arr, 'NAME', 'Компания оцифровщик каротажа');
 
     foreach ($arr as $key => $value) {
       $arr[$key] = iconv('utf-8', 'CP866', $value);
