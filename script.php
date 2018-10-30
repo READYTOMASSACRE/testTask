@@ -5,8 +5,28 @@
   justDoIt();
 
 
+
   /**
     * Init converting. Execute read and write to files
+    *
+    *                 ``                                                                        ```.`
+    *               `+/                                                                 ``.-/+o+:-.
+    *             `/mo                                                          ``.-:+syhdhs/-`
+    *            -hMd                                                    `..:+oyhmNNmds/-`
+    *          `oNMM/                                            ``.-/oyhdmMMMMNdy+:.
+    *         .hMMMM-                                     `.-/+shdmNMMMMMMNdy+:.
+    *        :mMMMMM+                             `.-:+sydmNMMMMMMMMMNmho:.`
+    *       :NMMMMMMN:                    `.-:/oyhmmNMMMMMMMMMMMNmho:.`
+    *      .NMMMMMMMMNy:`          `.-/oshdmNMMMMMMMMMMMMMMMmhs/-`
+    *      hMMMMMMMMMMMMmhysooosyhdmNMMMMMMMMMMMMMMMMMMmds/-`
+    *     .MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNdy+-.`
+    *     -MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNdy+-.`
+    *     `NMMMMMMMMMMMMMMMMMMMMMMMMMMMMMmyo:.`
+    *      /NMMMMMMMMMMMMMMMMMMMMMMMmho:.`
+    *       .yNMMMMMMMMMMMMMMMMmhs/.`
+    *         ./shdmNNmmdhyo/-``
+    *              `````
+    *
     * @return nothing
     */
   function justDoIt() {
