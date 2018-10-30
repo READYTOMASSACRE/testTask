@@ -2,14 +2,34 @@
   header('Content-Type: text/html; charset=utf-8');
   include 'utils.php';
 
-  doit();
+  justDoIt();
+
 
 
   /**
     * Init converting. Execute read and write to files
+    *
+    *                 ``                                                                        ```.`
+    *               `+/                                                                 ``.-/+o+:-.
+    *             `/mo                                                          ``.-:+syhdhs/-`
+    *            -hMd                                                    `..:+oyhmNNmds/-`
+    *          `oNMM/                                            ``.-/oyhdmMMMMNdy+:.
+    *         .hMMMM-                                     `.-/+shdmNMMMMMMNdy+:.
+    *        :mMMMMM+                             `.-:+sydmNMMMMMMMMMNmho:.`
+    *       :NMMMMMMN:                    `.-:/oyhmmNMMMMMMMMMMMNmho:.`
+    *      .NMMMMMMMMNy:`          `.-/oshdmNMMMMMMMMMMMMMMMmhs/-`
+    *      hMMMMMMMMMMMMmhysooosyhdmNMMMMMMMMMMMMMMMMMMmds/-`
+    *     .MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNdy+-.`
+    *     -MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNdy+-.`
+    *     `NMMMMMMMMMMMMMMMMMMMMMMMMMMMMMmyo:.`
+    *      /NMMMMMMMMMMMMMMMMMMMMMMMmho:.`
+    *       .yNMMMMMMMMMMMMMMMMmhs/.`
+    *         ./shdmNNmmdhyo/-``
+    *              `````
+    *
     * @return nothing
     */
-  function doit() {
+  function justDoIt() {
     $input = 'Input/';
     $output = 'Output/';
     $path = array(
