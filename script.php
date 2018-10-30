@@ -2,14 +2,14 @@
   header('Content-Type: text/html; charset=utf-8');
   include 'utils.php';
 
-  doit();
+  justDoIt();
 
 
   /**
     * Init converting. Execute read and write to files
     * @return nothing
     */
-  function doit() {
+  function justDoIt() {
     $input = 'Input/';
     $output = 'Output/';
     $path = array(
